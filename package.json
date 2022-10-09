@@ -1,0 +1,18 @@
+{
+  "name": "yt-mp3",
+  "version": "1.0.0",
+  "description": "Api to convert youtube video to mp3",
+  "main": "index.js",
+  "author": "Sanay George Varghese",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0"
+  }
+}
